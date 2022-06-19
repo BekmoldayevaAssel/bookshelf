@@ -11,7 +11,7 @@ class Authors(models.Model):
     author_info = models.CharField(max_length=300)
 
     def __str__(self):
-        return self.title
+        return self.name
 
 class company(models.Model):
     title = models.CharField(max_length=100)
